@@ -63,6 +63,9 @@ li:first-letter {
 .btn {
   background-color: #23395d;
   border: 1px darkgray;
+  position: relative;
+  margin-left: -20px;
+  max-width: 90px;
 }
 
 #celsius-link {
