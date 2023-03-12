@@ -53,6 +53,17 @@ li:first-letter {
   position: relative;
   font-size: 16px;
 }
-.weather-temperature .units a {
+.weather-temperature .active {
+  color: rgba(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
+#fahrenheit-link {
   text-decoration: none;
 }
